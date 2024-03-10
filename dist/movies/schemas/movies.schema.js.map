@@ -1,0 +1,1 @@
+{"version":3,"file":"movies.schema.js","sourceRoot":"","sources":["../../../src/movies/schemas/movies.schema.ts"],"names":[],"mappings":";;;AAEA,qCAAqC;AAExB,QAAA,YAAY,GAAG,IAAI,QAAQ,CAAC,MAAM,CAAC;IAC9C,SAAS,EAAE,MAAM;IACjB,KAAK,EAAE,MAAM;IACb,MAAM,EAAE,MAAM;IACd,aAAa,EAAE,MAAM;CACtB,CAAC,CAAC;AAEU,QAAA,WAAW,GAAG,QAAQ,CAAC,KAAK,CAAC,QAAQ,EAAE,oBAAY,CAAC,CAAC"}
