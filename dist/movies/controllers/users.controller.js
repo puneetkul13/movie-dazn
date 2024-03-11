@@ -37,9 +37,6 @@ let UsersController = class UsersController {
         if (!username || !password || !roles || roles.length === 0) {
             throw new common_1.HttpException('parameters are missing', 400);
         }
-        console.log(username);
-        console.log(password);
-        console.log(roles);
         const res = await this.usersService.register(registerDto);
         return res;
     }
