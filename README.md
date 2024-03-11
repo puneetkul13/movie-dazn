@@ -1,8 +1,10 @@
 # movie-dazn
 
 First clone the project into your local system using the git clone --ssh-key command.
-Install the dependencies using the 'npm install' command
-Run the project using 'npm start' command
+
+Install the dependencies using the 'npm install' command.
+
+Run the project using 'npm start' command.
 
 After running the project register the user with the following request using postamn:
 
