@@ -23,9 +23,11 @@
 /// <reference types="mongoose/types/virtuals" />
 /// <reference types="mongoose/types/inferschematype" />
 import { Model } from 'mongoose';
+import { registerDTO } from '../dto/register.dto';
 export declare class UsersService {
     private readonly usersModel;
     constructor(usersModel: Model<any>);
     getUser(query: any): Promise<any[]>;
     getUserByUsername(username: string): Promise<any[]>;
+    register(registerDto: registerDTO): Promise<any>;
 }

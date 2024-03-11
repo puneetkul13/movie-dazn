@@ -28,6 +28,10 @@ let UsersService = class UsersService {
         const res = await this.usersModel.find({ username });
         return res;
     }
+    async register(registerDto) {
+        const res = await this.usersModel.create(registerDto);
+        return res;
+    }
 };
 exports.UsersService = UsersService;
 exports.UsersService = UsersService = __decorate([
